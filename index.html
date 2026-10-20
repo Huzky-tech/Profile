@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJ Calunsag | IT Portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <a href="#home" class="logo">MJ<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+
+        <nav id="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="contact-btn">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <p class="eyebrow">INFORMATION TECHNOLOGY STUDENT</p>
+
+            <h1>Building Secure<br>
+                And Useful <span>Digital</span><br>
+                Experiences.
+            </h1>
+
+            <p class="description">
+                Hello! I'm MJ Calunsag, an Information Technology student
+                specializing in Cyber Security. I am passionate about
+                web development, networking, and protecting digital systems.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn-primary">View My Projects ↗</a>
+                <a href="#contact" class="btn-secondary">Contact Me →</a>
+            </div>
+
+            <div class="stats">
+                <div>
+                    <h3>IT</h3>
+                    <p>Student</p>
+                </div>
+                <div>
+                    <h3>Cyber</h3>
+                    <p>Security</p>
+                </div>
+                <div>
+                    <h3>Web</h3>
+                    <p>Development</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <!-- Replace profile.jpg with your professional portrait -->
+            <img src="image/profile.png" alt="Portrait of MJ Calunsag"
+                 onerror="this.style.display='none'; document.getElementById('photoFallback').style.display='flex';">
+
+            <div id="photoFallback" class="photo-fallback">
+                <span>MJ<span class="red-dot">.</span></span>
+                <small>YOUR PHOTO HERE</small>
+            </div>
+
+            <div class="image-label">● Open to learning opportunities</div>
+            <div class="circle circle-one"></div>
+            <div class="circle circle-two"></div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <p class="section-label">01 — ABOUT ME</p>
+
+        <div class="two-column">
+            <h2>Technology With<br><span>Purpose.</span></h2>
+
+            <div>
+                <p class="large-text">
+                    I am pursuing a Bachelor of Science in Information
+                    Technology at PHINMA Cagayan de Oro College,
+                    specializing in Cyber Security.
+                </p>
+
+                <p>
+                    I enjoy developing practical systems, learning how
+                    computer networks operate, and understanding how to
+                    protect applications and data. My goal is to continue
+                    improving my technical skills through projects and
+                    real-world experience.
+                </p>
+
+                <a href="#contact" class="underlined-link">Let's connect ↗</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <p class="section-label">02 — MY TOOLKIT</p>
+
+        <div class="section-heading">
+            <h2>Skills & <span>Interests.</span></h2>
+            <p>Technical skills and tools I have learned or practiced.</p>
+        </div>
+
+        <div class="skills-grid">
+            <article class="skill-card">
+                <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, PHP</p>
+            </article>
+            <article class="skill-card">
+                <span class="skill-icon" aria-hidden="true">▤</span>
+                <h3>Database Management</h3>
+                <p>MySQL, SQL, data validation</p>
+            </article>
+            <article class="skill-card">
+                <span class="skill-icon" aria-hidden="true">⌘</span>
+                <h3>Networking</h3>
+                <p>IP addressing, VLANs, ACLs, Cisco Packet Tracer</p>
+            </article>
+            <article class="skill-card">
+                <span class="skill-icon" aria-hidden="true">⌁</span>
+                <h3>Cybersecurity</h3>
+                <p>Access control, secure coding, web security basics</p>
+            </article>
+            <article class="skill-card">
+                <span class="skill-icon" aria-hidden="true">⌥</span>
+                <h3>Version Control</h3>
+                <p>Git, GitHub, collaborative development</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="cat-section" aria-labelledby="cat-title">
+        <div class="cat-copy">
+            <p class="section-label">A LITTLE BREAK</p>
+            <h2 id="cat-title">Meet <span>Kira.</span></h2>
+            <p>My tiny desk companion. Give Kira a little attention and see what happens.</p>
+        </div>
+        <div class="cat-widget">
+            <div class="cat-scene">
+                <span class="cat-sparkle sparkle-one" aria-hidden="true">✦</span>
+                <span class="cat-sparkle sparkle-two" aria-hidden="true">✦</span>
+                <div class="pixel-cat" id="pixelCat" role="img" aria-label="Kira, a standing grey and white pixel cat">
+                    <span class="cat-ear ear-left"></span><span class="cat-ear ear-right"></span>
+                    <span class="cat-face"><i class="cat-stripe stripe-one"></i><i class="cat-stripe stripe-two"></i><i class="cat-stripe stripe-three"></i><i class="cat-eye eye-left"></i><i class="cat-eye eye-right"></i><i class="cat-nose"></i><i class="cat-mouth"></i><i class="cat-whisker whisker-left"></i><i class="cat-whisker whisker-right"></i></span>
+                    <span class="cat-body"><i class="body-patch"></i><i class="body-stripe body-stripe-one"></i><i class="body-stripe body-stripe-two"></i></span><span class="cat-legs"><i></i><i></i><i></i><i></i></span><span class="cat-tail"><i></i></span>
+                </div>
+            </div>
+            <p class="cat-message" id="catMessage" aria-live="polite">Kira is ready to hang out.</p>
+            <div class="cat-actions" aria-label="Play with Pixel">
+                <button type="button" data-cat-action="pet">Pet</button>
+                <button type="button" data-cat-action="play">Play</button>
+                <button type="button" data-cat-action="snack">Treat</button>
+            </div>
+            <p class="cat-mood">Mood <span id="catMood">Curious</span><span class="mood-divider">·</span>Bond <span id="catBond">0</span></p>
+        </div>
+    </section>
+    <section id="projects" class="section">
+        <p class="section-label">03 — SELECTED WORK</p>
+
+        <div class="section-heading">
+            <h2>My <span>Projects.</span></h2>
+            <p>Academic and personal projects showcasing my skills.</p>
+        </div>
+
+        <div class="project-card">
+            <div class="project-number">01</div>
+            <div class="project-content">
+                <p class="project-type">CAPSTONE PROJECT</p>
+                <h3>Payroll & QR Attendance Management System</h3>
+                <p>
+                    A web-based system designed to manage construction
+                    worker attendance and payroll across multiple project
+                    sites. Features include QR attendance scanning,
+                    employee records, payroll processing, and reports.
+                </p>
+                <div class="tags">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>JavaScript</span>
+                    <span>HTML/CSS</span>
+                </div>
+            </div>
+            <div class="project-arrow">↗</div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-number">02</div>
+            <div class="project-content">
+                <p class="project-type">NETWORKING PROJECT</p>
+                <h3>Network Configuration & VLAN Segmentation</h3>
+                <p>
+                    A networking practice project involving IP addressing,
+                    VLAN configuration, network segmentation, and access
+                    control rules using Cisco Packet Tracer.
+                </p>
+                <div class="tags">
+                    <span>Cisco Packet Tracer</span>
+                    <span>VLAN</span>
+                    <span>ACL</span>
+                </div>
+            </div>
+            <div class="project-arrow">↗</div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-number">03</div>
+            <div class="project-content">
+                <p class="project-type">JAVASCRIPT PROJECT</p>
+                <h3>Interactive Browser Game</h3>
+                <p>
+                    A Minecraft-inspired slot game featuring random
+                    outcomes, interactive controls, a coin system,
+                    and reward calculations using JavaScript.
+                </p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="project-arrow">↗</div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <p class="section-label">04 — EDUCATION</p>
+
+        <div class="education-content">
+            <div>
+                <p class="project-type">JUNE 2023 — MAY 2026</p>
+                <h2>Bachelor of Science in<br><span>Information Technology</span></h2>
+            </div>
+
+            <div>
+                <h3>PHINMA Cagayan de Oro College</h3>
+                <p>Specialization in Cyber Security</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <p class="section-label">05 — CONTACT</p>
+
+        <div class="contact-layout">
+            <div>
+                <h2>Let's Work<br><span>Together.</span></h2>
+                <p>
+                    Interested in connecting about IT, cybersecurity,
+                    networking, or internship opportunities?
+                    Feel free to reach out.
+                </p>
+            </div>
+
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com">
+                    <span>Email</span>
+                    <strong>calunsagm66@example.com ↗</strong>
+                </a>
+
+                <a href="https://github.com/Huzky-tech" target="_blank" rel="noopener">
+                    <span>GitHub</span>
+                    <strong>Visit my GitHub ↗</strong>
+                </a>
+
+                <a href="https://www.linkedin.com/in/michaella-jane-calunsag-716b5029b/" target="_blank" rel="noopener">
+                    <span>LinkedIn</span>
+                    <strong>Connect with me ↗</strong>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#home" class="logo">MJ<span>.</span></a>
+        <p>Designed with curiosity. Built to keep learning.</p>
+        <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    </footer>
+
+</body>
+</html>
